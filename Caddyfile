@@ -1,11 +1,11 @@
-:2015 {
+https://site1.bot.wgtest.grid.tf {
     bind 0.0.0.0
     gzip
     root .
-    
+    tls nashaatp@codescalers.com
     git {
-        repo https://github.com/Incubaid/www_incubaid.git
-        branch master
+        repo https://github.com/PeterNashaat/www_incubaid.git
+        branch production
         hook /webhook "zU3687$aJEb6"
         key ~/.ssh/id_rsa
         path . 
